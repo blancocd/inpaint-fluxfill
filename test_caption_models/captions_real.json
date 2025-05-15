@@ -1,0 +1,152 @@
+[
+    {
+      "scan_id": 1,
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a woman walks wearing a light blue denim jacket with long sleeves, a horizontally striped navy shirt underneath, dark blue long jeans, and white sneakers. She also has a tan crossbody bag and a watch."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a woman walks wearing a horizontally striped navy t-shirt with no sleeves, dark blue long jeans, and white sneakers. She also has a tan crossbody bag and a watch."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a woman walks wearing a light blue denim jacket with long sleeves, a horizontally striped navy shirt underneath, dark blue shorts, and white sneakers. She also has a tan crossbody bag and a watch."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a woman walks wearing a horizontally striped navy blouse with no sleeves, dark blue shorts, and white sneakers. She also has a tan crossbody bag and a watch."
+        }
+      ]
+    },
+    {
+      "scan_id": 2,
+      "variants": [
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a woman stands wearing a simple gray short-sleeve crew neck t-shirt, high-waisted gray wide-leg long pants with pleats and a brown belt with a gold buckle, and brown flat sandals."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a woman stands wearing a simple gray long-sleeve crew neck shirt, high-waisted gray wide-leg long pants with pleats and a brown belt with a gold buckle, and brown flat sandals."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a woman stands wearing a simple gray short-sleeve crew neck t-shirt, high-waisted gray wide-leg shorts and a brown belt with a gold buckle, and brown flat sandals."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a woman stands wearing a simple gray long-sleeve crew neck shirt, high-waisted gray wide-leg shorts and a brown belt with a gold buckle, and brown flat sandals."
+        }
+      ]
+    },
+    {
+      "scan_id": 3,
+      "variants": [
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a woman walks outdoors wearing a white short-sleeve t-shirt with rolled cuffs, high-waisted light beige long pants, and white sneakers. She carries a white tote bag and wears sunglasses and hoop earrings."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a woman walks outdoors wearing a white long-sleeve shirt, high-waisted light beige long pants, and white sneakers. She carries a white tote bag and wears sunglasses and hoop earrings."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a woman walks outdoors wearing a white short-sleeve t-shirt with rolled cuffs, high-waisted light beige shorts, and white sneakers. She carries a white tote bag and wears sunglasses and hoop earrings."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a woman walks outdoors wearing a white long-sleeve shirt, high-waisted light beige shorts, and white sneakers. She carries a white tote bag and wears sunglasses and hoop earrings."
+        }
+      ]
+    },
+    {
+      "scan_id": 4,
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a man stands outdoors wearing a brown long-sleeve crew neck sweatshirt layered over a light blue and white patterned long-sleeve shirt (visible at the collar and hem), navy blue long chinos with rolled-up cuffs, and white sneakers. He also wears sunglasses."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a man stands outdoors wearing a brown t-shirt, navy blue long chinos with rolled-up cuffs, and white sneakers. He also wears sunglasses."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a man stands outdoors wearing a brown long-sleeve crew neck sweatshirt layered over a light blue and white patterned long-sleeve shirt (visible at the collar and hem), navy blue shorts, and white sneakers. He also wears sunglasses."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a man stands outdoors wearing a brown shirt, navy blue shorts, and white sneakers. He also wears sunglasses."
+        }
+      ]
+    },
+    {
+      "scan_id": 5,
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a man is seen walking outdoors wearing a bright pink long-sleeve crew neck sweater, light gray long chinos, and white sneakers with visible socks. He also wears sunglasses and a watch."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a man is seen walking outdoors wearing a bright pink t-shirt, light gray long chinos, and white sneakers with visible socks. He also wears sunglasses and a watch."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a man is seen walking outdoors wearing a bright pink long-sleeve crew neck sweater, light gray shorts, and white sneakers with visible socks. He also wears sunglasses and a watch."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a man is seen walking outdoors wearing a bright pink shirt, light gray shorts, and white sneakers with visible socks. He also wears sunglasses and a watch."
+        }
+      ]
+    },
+    {
+      "scan_id": 6,
+      "variants": [
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a man stands in a studio wearing a dark navy blue short-sleeve t-shirt with a small logo on the chest, light blue wide-leg long denim jeans, and tan loafers. He is also wearing a patterned baseball cap, sunglasses, and a watch."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a man stands in a studio wearing a dark navy blue long-sleeve shirt with a small logo on the chest, light blue wide-leg long denim jeans, and tan loafers. He is also wearing a patterned baseball cap, sunglasses, and a watch."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a man stands in a studio wearing a dark navy blue short-sleeve t-shirt with a small logo on the chest, light blue shorts, and tan loafers. He is also wearing a patterned baseball cap, sunglasses, and a watch."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a man stands in a studio wearing a dark navy blue long-sleeve shirt with a small logo on the chest, light blue shorts, and tan loafers. He is also wearing a patterned baseball cap, sunglasses, and a watch."
+        }
+      ]
+    }
+  ]

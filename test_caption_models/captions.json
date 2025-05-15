@@ -1,0 +1,282 @@
+[
+    {
+      "scan_id": 44,
+      "scan": "02623_Inner",
+      "dataset": "2k2k",
+      "original_caption": "a person wearing a t-shirt, short pants, and shoes",
+      "variants": [
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a casually dressed man wears a plain white short-sleeve t-shirt with a subtle v-neck, paired with fitted charcoal-gray knee-length shorts. His outfit is completed with light-colored sneakers featuring black stripes, giving a sporty and relaxed appearance."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a casually dressed man wears a plain white long-sleeve v-neck shirt, paired with fitted charcoal-gray knee-length shorts. His outfit is completed with light-colored sneakers featuring black stripes, blending sporty comfort with extra coverage."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a casually dressed man wears a plain white short-sleeve t-shirt with a subtle v-neck, paired with slim charcoal-gray full-length trousers. His outfit is completed with light-colored sneakers featuring black stripes, giving a sporty yet polished look."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a casually dressed man wears a plain white long-sleeve v-neck shirt, paired with slim charcoal-gray full-length trousers. His outfit is completed with light-colored sneakers featuring black stripes, creating a balanced sporty-casual ensemble."
+        }
+      ]
+    },
+    {
+      "scan_id": 77,
+      "scan": "125611499279708",
+      "dataset": "twindom_10k",
+      "original_caption": "a person wearing a shirt, short pants, and shoes",
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a man is dressed in coordinated athletic apparel featuring a long-sleeve black Nike top with a prominent white swoosh logo across the chest. He pairs this with matching black knee-length sports shorts and dark athletic socks, completing the outfit with pale gray training shoes."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a man wears a black short-sleeve athletic tee with a white Nike swoosh, paired with black knee-length sports shorts and dark athletic socks, finished with pale gray training shoes for a streamlined workout look."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a man wears a long-sleeve black Nike performance top with a white swoosh, paired with slim black full-length training pants and dark athletic socks, completed by pale gray training shoes for an all-weather athletic look."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a man wears a black short-sleeve athletic tee with a white Nike swoosh, paired with fitted black full-length joggers and dark athletic socks, finished with pale gray training shoes for a sleek sporty outfit."
+        }
+      ]
+    },
+    {
+      "scan_id": 96,
+      "scan": "129311521157608",
+      "dataset": "twindom_10k",
+      "original_caption": "a person wearing a hat, a t-shirt, and pants",
+      "variants": [
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a girl wears a casual gray t-shirt printed with a faded graphic text, tucked over a pair of fitted full length black leggings. The outfit is relaxed and comfortable, paired with ankle socks that have subtle pink and white accents, suggesting a cozy and laid-back style suitable for lounging or light activity."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a girl wears a casual gray long-sleeve graphic tee with faded text, paired with fitted black full-length leggings. The outfit is completed by ankle socks with pink and white accents, presenting a snug and casual aesthetic."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a girl wears a casual gray short-sleeve t-shirt printed with a faded graphic text, paired with fitted black knee-length athletic shorts. The outfit is paired with ankle socks featuring pink and white accents for a relaxed sporty vibe."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a girl wears a casual gray long-sleeve graphic tee with faded text, paired with fitted black knee-length athletic shorts. The look is completed by ankle socks with pink and white accents, giving a cozy sporty feel."
+        }
+      ]
+    },
+    {
+      "scan_id": 107,
+      "scan": "04408_Inner",
+      "dataset": "2k2k",
+      "original_caption": "a person wearing short pants, shoes, and a hoodie",
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a girl wears a white dotted shirt. The shirt is loose and its sleeves extending past the elbows. She also wears jeans mini shorts and light blue heels. The heels are mostly open only having two ribbons by the ankle and before the toes."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a girl wears a white short-sleeve dotted blouse, paired with jeans mini shorts and light blue open-ribbon heels, creating a stylish casual look."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a girl wears a white long-sleeve dotted blouse with sleeves extending past the elbows, paired with slim full-length jeans and light blue open-ribbon heels, creating an elegant casual outfit."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a girl wears a white short-sleeve dotted blouse, paired with slim full-length jeans and light blue open-ribbon heels, blending casual comfort with feminine flair."
+        }
+      ]
+    },
+    {
+      "scan_id": 144,
+      "scan": "03838_Inner",
+      "dataset": "2k2k",
+      "original_caption": "a person wearing a t-shirt, short pants, and shoes",
+      "variants": [
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a boy wears a white t-shirt with JOURNEY in the center in dim big text. He wears black sport shorts which end just before his knees. He is also wearing white sandals."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a boy wears a white long-sleeve tee printed with JOURNEY in faded bold text, paired with black knee-length sport shorts and white sandals, offering a lightweight layered style."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a boy wears a white short-sleeve t-shirt emblazoned with JOURNEY in faded bold text, paired with black full-length athletic joggers and white sandals, giving a relaxed sporty look."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a boy wears a white long-sleeve JOURNEY tee with faded bold text, paired with black full-length athletic joggers and white sandals, creating a comfy, covered-up sporty ensemble."
+        }
+      ]
+    },
+    {
+      "scan_id": 205,
+      "scan": "01695_Inner",
+      "dataset": "2k2k",
+      "original_caption": "a person wearing pants, shoes, and a hoodie",
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a man wears a tight blacks shirt with long sleeves. He is carrying a backpack of which only the straps are seen and folded glasses hanging from his shirt. He wears full-length jeans and yellow casual shoes."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a man wears a fitted black short-sleeve shirt with sleeves rolled up before his elbows, paired with straight-cut dark denim full-length jeans, yellow casual shoes, carrying a backpack with visible straps and folded glasses hanging from his shirt for a practical modern look."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a man wears a fitted black long-sleeve shirt, paired with dark denim knee-length cut-off shorts, yellow casual shoes, and a backpack with visible straps, offering a casual layered look."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a man wears a fitted black short-sleeve shirt, paired with dark denim knee-length cut-off shorts, yellow casual shoes, and a backpack with visible straps, projecting a laid-back urban look."
+        }
+      ]
+    },
+    {
+      "scan_id": 220,
+      "scan": "135611506799323",
+      "dataset": "twindom_10k",
+      "original_caption": "a person wearing a shirt, pants, and shoes",
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a boy wears a long sleeve shirt. The shirt has a yellow Zelda logo printed in big in the middle and the shirt is gray. He is wearing dark grey sport pants and blue casual shoes."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a boy wears a gray short-sleeve tee printed with a large yellow Zelda logo, paired with dark gray full-length athletic joggers and blue casual shoes, for a cohesive gamer-athletic outfit."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a boy wears a gray long-sleeve tee printed with a large yellow Zelda logo, paired with dark gray knee-length athletic shorts and blue casual shoes, combining logo-centric style with summer comfort."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a boy wears a gray short-sleeve tee printed with a large yellow Zelda logo, paired with dark gray knee-length athletic shorts and blue casual shoes, for a bold gamer-inspired sporty look."
+        }
+      ]
+    },
+    {
+      "scan_id": 1584,
+      "scan": "02047_Inner",
+      "dataset": "2k2k",
+      "original_caption": "a person wearing pants, shoes, and a jacket",
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "an old man wears a light grey hoodie. The hoodie is halfway zipped and below it is a grey shirt with emojis. He wears full length dark jeans and light grey shoes, for a classic hoodie-and-jeans outfit."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "an old man wears a light gray gray emoji-print t-shirt, paired with dark denim full-length jeans and light gray shoes, for a casual layered style."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a man wears a light gray hoodie over a gray emoji-print tee, paired with dark denim knee-length short jeans and light gray shoes."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a man wears a light gray short-sleeve hoodie over a gray emoji-print tee, paired with dark denim knee-length cut-off shorts and light gray shoes, for a playful, warm-weather layered look."
+        }
+      ]
+    },
+    {
+      "scan_id": 1628,
+      "scan": "03424_Inner",
+      "dataset": "2k2k",
+      "original_caption": "a person wearing pants, shoes, and a jacket",
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a man wears a light grey almost white hoodie zipped two thirds up. Beneath the hoodie he wears a dark blue shirt. He wears long khaki pants and dark running shoes."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a man wears a light dark blue tee, paired with khaki full-length cargo pants and dark running shoes, blending summer ease with functional style."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a man wears a light gray long-sleeve zip-up hoodie over a dark blue tee, paired with khaki knee-length cargo shorts and dark running shoes, balancing warmth with summer readiness."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a man wears a light gray zip-up hoodie with its sleeves rolled before his elbows over a dark blue tee, paired with khaki cargo shorts and dark running shoes, for a functional outdoor-ready outfit."
+        }
+      ]
+    },
+    {
+      "scan_id": 1664,
+      "scan": "04623_Inner",
+      "dataset": "2k2k",
+      "original_caption": "a person wearing pants, shoes, and a jacket",
+      "variants": [
+        {
+          "longer_sleeves": true,
+          "longer_pants": true,
+          "caption": "a man is wearing a black tight jacket will long sleeves. The jacket is almost open as he also stretches it to show his underlying shirt. The shirt is white and says Dad in big bold letters. He also wears full length grey sport pants and grey shoes."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": true,
+          "caption": "a man wears a white tee with DAD in big, paired with gray full-length athletic joggers and gray shoes, merging summer ease with street-style layering."
+        },
+        {
+          "longer_sleeves": true,
+          "longer_pants": false,
+          "caption": "a man wears a black long-sleeve sporty jacket left open to reveal a white Dad tee, paired with gray knee-length athletic shorts and gray shoes, merging warmth with a summer-style edge."
+        },
+        {
+          "longer_sleeves": false,
+          "longer_pants": false,
+          "caption": "a man wears a black short-sleeve sporty jacket left open to reveal a white Dad tee, paired with gray knee-length athletic shorts and gray shoes, for a cohesive layered athletic look."
+        }
+      ]
+    }
+  ]

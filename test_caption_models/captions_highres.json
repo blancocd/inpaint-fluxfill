@@ -1,0 +1,27 @@
+[
+  {
+    "scan_id": "highres_scan",
+    "variants": [
+      {
+        "longer_sleeves": true,
+        "longer_pants": true,
+        "caption": "a man stands with his right arm raised, wearing a white long-sleeve shirt and light blue long jeans. He is also wearing brown shoes."
+      },
+      {
+        "longer_sleeves": false,
+        "longer_pants": true,
+        "caption": "a man stands with his right arm raised, wearing a white short-sleeve shirt and light blue long jeans. He is also wearing brown shoes."
+      },
+      {
+        "longer_sleeves": true,
+        "longer_pants": false,
+        "caption": "a man stands with his right arm raised, wearing a white long-sleeve shirt and light blue shorts. He is also wearing brown shoes."
+      },
+      {
+        "longer_sleeves": false,
+        "longer_pants": false,
+        "caption": "a man stands with his right arm raised, wearing a white short-sleeve shirt and light blue shorts. He is also wearing brown shoes."
+      }
+    ]
+  }
+]
