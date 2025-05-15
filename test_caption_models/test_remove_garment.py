@@ -100,7 +100,7 @@ for scan in scans:
     prompts = scan["prompts"]
     image = load_image(osp.join(base_dir, 'images', scan_id + '.png'))
 
-    prompt = prompts[0]
+    prompt = prompts[1]
     mask_upper = load_image(osp.join(base_dir, 'masks', scan_id + '_upper_garment.png'))
     
     gen_image = pipe(
