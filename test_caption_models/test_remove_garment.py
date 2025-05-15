@@ -118,40 +118,6 @@ for scan in scans:
     final_img = add_text_below_image_wrapped(final_img, prompt)
     final_img_fn = osp.join(results_dir, f"{scan_id}_remove.png")
     final_img.save(final_img_fn)
-
-    prompt = prompts[1]
-    gen_image = pipe(
-        prompt=prompt,
-        image=image,
-        mask_image=mask_upper,
-        height=image.height,
-        width=image.width,
-        guidance_scale=30,
-        num_inference_steps=50,
-        max_sequence_length=512,
-        generator=torch.Generator("cpu").manual_seed(0)
-    ).images[0]
-    final_img = make_image_grid([image, mask_upper, gen_image], 1, 3)
-    final_img = add_text_below_image_wrapped(final_img, prompt)
-    final_img_fn = osp.join(results_dir, f"{scan_id}_detailed.png")
-    final_img.save(final_img_fn)
-
-    prompt = prompts[2]
-    gen_image = pipe(
-        prompt=prompt,
-        image=image,
-        mask_image=mask_upper,
-        height=image.height,
-        width=image.width,
-        guidance_scale=30,
-        num_inference_steps=50,
-        max_sequence_length=512,
-        generator=torch.Generator("cpu").manual_seed(0)
-    ).images[0]
-    final_img = make_image_grid([image, mask_upper, gen_image], 1, 3)
-    final_img = add_text_below_image_wrapped(final_img, prompt)
-    final_img_fn = osp.join(results_dir, f"{scan_id}_remove_detailed.png")
-    final_img.save(final_img_fn)
     
     prompt = ''
     gen_image = pipe(
