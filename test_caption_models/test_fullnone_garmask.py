@@ -95,8 +95,8 @@ with open(osp.join(base_dir, json_fn), 'r') as f:
 for scan in scans:
     print(f"Testing scan {scan['scan_id']}")
     scan_id = str(scan['scan_id'])
-    if '1584' not in scan_id:
-        continue
+    #if '1584' not in scan_id:
+    #    continue
     prompts = scan["prompts"]
     image = load_image(osp.join(base_dir, 'images', scan_id + '.png'))
 
@@ -142,8 +142,8 @@ os.makedirs(results_dir, exist_ok=True)
 for scan in scans:
     print(f"Testing scan {scan['scan_id']}")
     scan_id = str(scan['scan_id'])
-    if '1584' not in scan_id:
-        continue
+    #if '1584' not in scan_id:
+    #    continue
     prompts = scan["prompts"]
     image = load_image(osp.join(base_dir, 'images', scan_id + '.png'))
 
