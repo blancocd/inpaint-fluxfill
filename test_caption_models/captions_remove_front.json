@@ -1,0 +1,32 @@
+[
+    {
+      "scan_id": 1,
+      "prompts": [
+        "a blouse with dark blue and white horizontal stripes"
+      ]
+    },
+    {
+      "scan_id": 4,
+      "prompts": [
+        "a shirt with a blue and white pattern"
+      ]
+    },
+    {
+      "scan_id": 1584,
+      "prompts": [
+        "a tshirt with icons along the chest"
+      ]
+    },
+    {
+      "scan_id": 1628,
+      "prompts": [
+        "a blue t-shirt"
+      ]
+    },
+    {
+      "scan_id": 1664,
+      "prompts": [
+        "a white t-shirt with the word DAD across the chest"
+      ]
+    }
+]

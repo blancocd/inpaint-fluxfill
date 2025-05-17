@@ -1,0 +1,44 @@
+[
+    {
+      "scan_id": 1584,
+      "prompts": [
+        "a tshirt with icons along the chest"
+      ]
+    },
+    {
+      "scan_id": 1628,
+      "prompts": [
+        "a blue t-shirt"
+      ]
+    },
+    {
+      "scan_id": 1664,
+      "prompts": [
+        "a white t-shirt with the word DAD across the chest"
+      ]
+    },
+    {
+      "scan_id": 1679,
+      "prompts": [
+        "a light red blouse"
+      ]
+    },
+    {
+      "scan_id": 1796,
+      "prompts": [
+        "a white shirt and tie"
+      ]
+    },
+    {
+      "scan_id": 1828,
+      "prompts": [
+        "a light blue shirt and dark blue tie"
+      ]
+    },
+    {
+      "scan_id": 1868,
+      "prompts": [
+        "a yellow mustard shirt"
+      ]
+    }
+]
