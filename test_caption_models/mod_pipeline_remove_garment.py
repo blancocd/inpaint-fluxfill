@@ -95,49 +95,53 @@ json_fn = 'captions_remove_fb.json'
 with open(osp.join(base_dir, json_fn), 'r') as f:
     scans = json.load(f)
 
-for scan in scans:
-    print(f"Testing scan {scan['scan_id']}")
-    scan_id = str(scan['scan_id'])
-    # if '1868' not in scan_id:
-    #    continue
-    prompts = scan["prompts"]
-    image = load_image(osp.join(base_dir, 'images', view, scan_id + '.png'))
 
-    prompt = prompts[0]
-    general_mask_upper = load_image(osp.join(base_dir, 'masks', view, scan_id + '_upper.png'))
-    specific_mask_upper = load_image(osp.join(base_dir, 'masks', view, scan_id + '_upper_garment.png'))
-    
-    gen_image = pipe(
-        prompt=prompt,
-        image=image,
-        mask_image_general=general_mask_upper,
-        mask_image_specific=specific_mask_upper,
-        height=image.height,
-        width=image.width,
-        guidance_scale=30,
-        num_inference_steps=50,
-        max_sequence_length=512,
-        generator=torch.Generator("cpu").manual_seed(0)
-    ).images[0]
-    final_img = make_image_grid([image, general_mask_upper, specific_mask_upper, gen_image], 1, 4)
-    final_img = add_text_below_image_wrapped(final_img, prompt)
-    final_img_fn = osp.join(results_dir, f"{scan_id}_undergarment.png")
-    final_img.save(final_img_fn)
-    
-    prompt = ''
-    gen_image = pipe(
-        prompt=prompt,
-        image=image,
-        mask_image_general=general_mask_upper,
-        mask_image_specific=specific_mask_upper,
-        height=image.height,
-        width=image.width,
-        guidance_scale=30,
-        num_inference_steps=50,
-        max_sequence_length=512,
-        generator=torch.Generator("cpu").manual_seed(0)
-    ).images[0]
-    final_img = make_image_grid([image, general_mask_upper, specific_mask_upper, gen_image], 1, 4)
-    final_img = add_text_below_image_wrapped(final_img, prompt)
-    final_img_fn = osp.join(results_dir, f"{scan_id}_noprompt.png")
-    final_img.save(final_img_fn)
+for guidance_scale in [35,30,40,45,50]:
+    results_dir = osp.join(base_dir, 'results', view, task, mask_type, 'gs'+str(guidance_scale))
+    os.makedirs(results_dir, exist_ok=True)
+    for scan in scans:
+        print(f"Testing scan {scan['scan_id']}")
+        scan_id = str(scan['scan_id'])
+        # if '1868' not in scan_id:
+        #    continue
+        prompts = scan["prompts"]
+        image = load_image(osp.join(base_dir, 'images', view, scan_id + '.png'))
+
+        prompt = prompts[0]
+        general_mask_upper = load_image(osp.join(base_dir, 'masks', view, scan_id + '_upper.png'))
+        specific_mask_upper = load_image(osp.join(base_dir, 'masks', view, scan_id + '_upper_garment.png'))
+        
+        gen_image = pipe(
+            prompt=prompt,
+            image=image,
+            mask_image_general=general_mask_upper,
+            mask_image_specific=specific_mask_upper,
+            height=image.height,
+            width=image.width,
+            guidance_scale=guidance_scale,
+            num_inference_steps=50,
+            max_sequence_length=512,
+            generator=torch.Generator("cpu").manual_seed(0)
+        ).images[0]
+        final_img = make_image_grid([image, general_mask_upper, specific_mask_upper, gen_image], 1, 4)
+        final_img = add_text_below_image_wrapped(final_img, prompt)
+        final_img_fn = osp.join(results_dir, f"{scan_id}_undergarment.png")
+        final_img.save(final_img_fn)
+        
+        prompt = ''
+        gen_image = pipe(
+            prompt=prompt,
+            image=image,
+            mask_image_general=general_mask_upper,
+            mask_image_specific=specific_mask_upper,
+            height=image.height,
+            width=image.width,
+            guidance_scale=guidance_scale,
+            num_inference_steps=50,
+            max_sequence_length=512,
+            generator=torch.Generator("cpu").manual_seed(0)
+        ).images[0]
+        final_img = make_image_grid([image, general_mask_upper, specific_mask_upper, gen_image], 1, 4)
+        final_img = add_text_below_image_wrapped(final_img, prompt)
+        final_img_fn = osp.join(results_dir, f"{scan_id}_noprompt.png")
+        final_img.save(final_img_fn)
