@@ -97,13 +97,13 @@ with open(osp.join(base_dir, json_fn), 'r') as f:
     scans = json.load(f)
 
 specific_scans = ['1828', '1868']
-for mask_interpolation_param in np.linspace(0.0, 1.0, 5):
+for mask_interpolation_param in [0.5]: #np.linspace(0.0, 1.0, 5):
     results_dir = osp.join(base_dir, 'results', view, task, mask_type, 'miprm'+str(mask_interpolation_param))
     os.makedirs(results_dir, exist_ok=True)
     for scan in scans:
         print(f"Testing scan {scan['scan_id']}")
         scan_id = str(scan['scan_id'])
-        if specific_scans is not None and scan_id not in specific_scans:
+        if specific_scans is not None and scan_id in specific_scans:
            continue 
         prompts = scan["prompts"]
         image = load_image(osp.join(base_dir, 'images', view, scan_id + '.png'))
