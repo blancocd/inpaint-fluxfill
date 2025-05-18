@@ -96,7 +96,7 @@ with open(osp.join(base_dir, json_fn), 'r') as f:
     scans = json.load(f)
 
 
-for guidance_scale in [50]:
+for guidance_scale in [20,25]:
     results_dir = osp.join(base_dir, 'results', view, task, mask_type, 'gs'+str(guidance_scale))
     os.makedirs(results_dir, exist_ok=True)
     for scan in scans:
