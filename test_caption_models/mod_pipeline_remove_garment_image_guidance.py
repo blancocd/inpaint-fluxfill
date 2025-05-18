@@ -97,7 +97,7 @@ with open(osp.join(base_dir, json_fn), 'r') as f:
     scans = json.load(f)
 
 specific_scans = None #['1828', '1868']
-for ring_image_guidance_weight in np.linspace(0.0, 1.0, 5):
+for ring_image_guidance_weight in np.linspace(0.0, 1.0, 5)[1:]:
     results_dir = osp.join(base_dir, 'results', view, task, mask_type, 'imgguid'+str(ring_image_guidance_weight))
     os.makedirs(results_dir, exist_ok=True)
     for scan in scans:
