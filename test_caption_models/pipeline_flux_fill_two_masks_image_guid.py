@@ -1081,8 +1081,8 @@ class FluxFillPipeline(
         if use_ring_image_guidance and ring_image_embedding_for_guidance is not None:
             if pooled_prompt_embeds is not None:
                 pooled_prompt_embeds = (
-                    (1 - ring_image_guidance_weight) * pooled_prompt_embeds
-                    + ring_image_guidance_weight * ring_image_embedding_for_guidance
+                    (1 - ring_image_guidance_weight) * pooled_prompt_embeds.to(device=device)
+                    + ring_image_guidance_weight * ring_image_embedding_for_guidance.to(device=device)
                 )
             else: # Only ring image guidance available for the CLIP projection slot
                 pooled_prompt_embeds = ring_image_embedding_for_guidance
