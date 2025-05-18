@@ -19,12 +19,12 @@ import numpy as np
 import torch
 from transformers import CLIPTextModel, CLIPTokenizer, T5EncoderModel, T5TokenizerFast
 
-from ...image_processor import VaeImageProcessor
-from ...loaders import FluxLoraLoaderMixin, FromSingleFileMixin, TextualInversionLoaderMixin
-from ...models.autoencoders import AutoencoderKL
-from ...models.transformers import FluxTransformer2DModel
-from ...schedulers import FlowMatchEulerDiscreteScheduler
-from ...utils import (
+from diffusers.image_processor import VaeImageProcessor
+from diffusers.loaders import FluxLoraLoaderMixin, FromSingleFileMixin, TextualInversionLoaderMixin
+from diffusers.models.autoencoders import AutoencoderKL
+from diffusers.models.transformers import FluxTransformer2DModel
+from diffusers.schedulers import FlowMatchEulerDiscreteScheduler
+from diffusers.utils import (
     USE_PEFT_BACKEND,
     is_torch_xla_available,
     logging,
@@ -32,9 +32,9 @@ from ...utils import (
     scale_lora_layers,
     unscale_lora_layers,
 )
-from ...utils.torch_utils import randn_tensor
-from ..pipeline_utils import DiffusionPipeline
-from .pipeline_output import FluxPipelineOutput
+from diffusers.utils.torch_utils import randn_tensor
+from diffusers.pipelines.pipeline_utils import DiffusionPipeline
+from diffusers.pipelines.flux.pipeline_output import FluxPipelineOutput
 
 
 if is_torch_xla_available():
@@ -731,7 +731,8 @@ class FluxFillPipeline(
         prompt: Union[str, List[str]] = None,
         prompt_2: Optional[Union[str, List[str]]] = None,
         image: Optional[torch.FloatTensor] = None,
-        mask_image: Optional[torch.FloatTensor] = None,
+        mask_image_specific: Optional[torch.FloatTensor] = None,
+        mask_image_general: Optional[torch.FloatTensor] = None,
         masked_image_latents: Optional[torch.FloatTensor] = None,
         height: Optional[int] = None,
         width: Optional[int] = None,
@@ -857,7 +858,7 @@ class FluxFillPipeline(
             callback_on_step_end_tensor_inputs=callback_on_step_end_tensor_inputs,
             max_sequence_length=max_sequence_length,
             image=image,
-            mask_image=mask_image,
+            mask_image=mask_image_general,
             masked_image_latents=masked_image_latents,
         )
 
@@ -942,15 +943,35 @@ class FluxFillPipeline(
         if masked_image_latents is not None:
             masked_image_latents = masked_image_latents.to(latents.device)
         else:
-            mask_image = self.mask_processor.preprocess(mask_image, height=height, width=width)
+            # mask_image = self.mask_processor.preprocess(mask_image, height=height, width=width)
+            processed_mask_specific = self.mask_processor.preprocess(mask_image_specific, height=height, width=width)
+            processed_mask_general = self.mask_processor.preprocess(mask_image_general, height=height, width=width)
+            
+            
+            # masked_image = init_image * (1 - mask_image)
+            masked_input_for_vae = init_image * (1 - processed_mask_specific)
 
-            masked_image = init_image * (1 - mask_image)
-            masked_image = masked_image.to(device=device, dtype=prompt_embeds.dtype)
+            
+            # masked_image = masked_image.to(device=device, dtype=prompt_embeds.dtype)
+            masked_input_for_vae = masked_input_for_vae.to(device=device, dtype=prompt_embeds.dtype)
 
-            height, width = init_image.shape[-2:]
-            mask, masked_image_latents = self.prepare_mask_latents(
-                mask_image,
-                masked_image,
+
+            # height, width = init_image.shape[-2:]
+            # mask, masked_image_latents = self.prepare_mask_latents(
+            #     mask_image,
+            #     masked_image,
+            #     batch_size,
+            #     num_channels_latents,
+            #     num_images_per_prompt,
+            #     height,
+            #     width,
+            #     prompt_embeds.dtype,
+            #     device,
+            #     generator,
+            # )
+            packed_general_mask_for_concat, packed_vae_encoded_specific_masked_image_for_concat = self.prepare_mask_latents(
+                processed_mask_general,    # Use the GENERAL mask here
+                masked_input_for_vae, # Use the image masked with the SPECIFIC mask here
                 batch_size,
                 num_channels_latents,
                 num_images_per_prompt,
@@ -960,7 +981,10 @@ class FluxFillPipeline(
                 device,
                 generator,
             )
-            masked_image_latents = torch.cat((masked_image_latents, mask), dim=-1)
+
+
+            # masked_image_latents = torch.cat((masked_image_latents, mask), dim=-1)
+            masked_image_latents = torch.cat((packed_vae_encoded_specific_masked_image_for_concat, packed_general_mask_for_concat), dim=-1)
 
         num_warmup_steps = max(len(timesteps) - num_inference_steps * self.scheduler.order, 0)
         self._num_timesteps = len(timesteps)
