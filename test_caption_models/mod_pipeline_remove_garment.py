@@ -95,15 +95,15 @@ json_fn = 'captions_remove_fb.json'
 with open(osp.join(base_dir, json_fn), 'r') as f:
     scans = json.load(f)
 
-
+specific_scans = ['1828', '1868']
 for guidance_scale in [60,70,80]:
     results_dir = osp.join(base_dir, 'results', view, task, mask_type, 'gs'+str(guidance_scale))
     os.makedirs(results_dir, exist_ok=True)
     for scan in scans:
         print(f"Testing scan {scan['scan_id']}")
         scan_id = str(scan['scan_id'])
-        # if '1868' not in scan_id:
-        #    continue
+        if specific_scans is not None and scan_id not in specific_scans:
+           continue 
         prompts = scan["prompts"]
         image = load_image(osp.join(base_dir, 'images', view, scan_id + '.png'))
 

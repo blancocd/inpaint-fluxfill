@@ -740,6 +740,7 @@ class FluxFillPipeline(
         num_inference_steps: int = 50,
         sigmas: Optional[List[float]] = None,
         guidance_scale: float = 30.0,
+        mask_interpolation_param: float = 0.,
         num_images_per_prompt: Optional[int] = 1,
         generator: Optional[Union[torch.Generator, List[torch.Generator]]] = None,
         latents: Optional[torch.FloatTensor] = None,
@@ -944,12 +945,14 @@ class FluxFillPipeline(
             masked_image_latents = masked_image_latents.to(latents.device)
         else:
             # mask_image = self.mask_processor.preprocess(mask_image, height=height, width=width)
-            processed_mask_specific = self.mask_processor.preprocess(mask_image_specific, height=height, width=width)
-            processed_mask_general = self.mask_processor.preprocess(mask_image_general, height=height, width=width)
+            processed_mask_specific = self.mask_processor.preprocess(mask_image_specific, height=height, width=width).to(dtype=torch.float32)
+            processed_mask_general = self.mask_processor.preprocess(mask_image_general, height=height, width=width).to(dtype=torch.float32)
             
             
             # masked_image = init_image * (1 - mask_image)
-            masked_input_for_vae = init_image * (1 - processed_mask_specific)
+            interpolated_mask_for_vae_input = ((1 - mask_interpolation_param) * processed_mask_specific) + (mask_interpolation_param * processed_mask_general)
+            interpolated_mask_for_vae_input = torch.clamp(interpolated_mask_for_vae_input, 0.0, 1.0)
+            masked_input_for_vae = init_image * (1 - interpolated_mask_for_vae_input)
 
             
             # masked_image = masked_image.to(device=device, dtype=prompt_embeds.dtype)
