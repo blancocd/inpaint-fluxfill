@@ -1,5 +1,5 @@
 import torch
-from .pipeline_flux_fill_two_masks import FluxFillPipeline
+from pipeline_flux_fill_two_masks import FluxFillPipeline
 from diffusers.utils import load_image, make_image_grid
 import json
 import os.path as osp
