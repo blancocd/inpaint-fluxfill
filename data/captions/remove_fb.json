@@ -1,0 +1,50 @@
+[
+    {
+      "scan_id": 1584,
+      "scan": "02047_Inner",
+      "dataset": "2k2k",
+      "prompts": [
+        "a tshirt with icons along the chest"
+      ]
+    },
+    {
+      "scan_id": 1628,
+      "scan": "03424_Inner",
+      "dataset": "2k2k",
+      "prompts": [
+        "a blue t-shirt"
+      ]
+    },
+    {
+      "scan_id": 1664,
+      "scan": "04623_Inner",
+      "dataset": "2k2k",
+      "prompts": [
+        "a white t-shirt with the word DAD across the chest"
+      ]
+    },
+    {
+      "scan_id": 1796,
+      "scan": "01466_Outer",
+      "dataset": "2k2k",
+      "prompts": [
+        "a white shirt and tie"
+      ]
+    },
+    {
+      "scan_id": 1828,
+      "scan": "126411448148548",
+      "dataset": "twindom_10k",
+      "prompts": [
+        "a light blue shirt and dark blue tie"
+      ]
+    },
+    {
+      "scan_id": 1868,
+      "scan": "126411448477651",
+      "dataset": "twindom_10k",
+      "prompts": [
+        "a yellow mustard shirt"
+      ]
+    }
+]

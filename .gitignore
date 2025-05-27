@@ -1,3 +1,7 @@
 *.err
 *.out
 .tar.gz
+*.pyc
+_densepose
+__pycache__
+cloth_masker_other
