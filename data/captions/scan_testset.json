@@ -2,273 +2,326 @@
     {
         "scan": "00208_Outer",
         "dataset": "2k2k",
-        "inner": "white shirt and dark blue tie"
+        "inner": "white shirt and dark blue tie",
+        "outer": "black blazer"
     },
     {
         "scan": "03348_Outer",
         "dataset": "2k2k",
-        "inner": "white turtleneck shirt"
+        "inner": "white turtleneck shirt",
+        "outer": "red blazer"
     },
     {
         "scan": "04123_Outer",
         "dataset": "2k2k",
-        "inner": "gray polo shirt"
+        "inner": "gray polo shirt",
+        "outer": "yellow puffer jacket"
     },
     {
         "scan": "00102_Outer",
         "dataset": "2k2k",
-        "inner": "northface jacket"
+        "inner": "northface jacket",
+        "outer": "red jacket"
     },
     {
         "scan": "126411457236400",
         "dataset": "twindom_10k",
-        "inner": "white shirt and beige tie"
+        "inner": "white shirt and beige tie",
+        "outer": "black blazer"
     },
     {
         "scan": "03962_Outer",
         "dataset": "2k2k",
-        "inner": "ruffled white blouse"
+        "inner": "ruffled white blouse",
+        "outer": "jean jacket"
     },
     {
         "scan": "BWom0312-HD2-O01P01-S",
-        "dataset": "white shirt with sparse dots",
-        "inner": "white shirt with sparse dots"
+        "dataset": "axyz",
+        "inner": "white shirt with sparse dots",
+        "outer": "coral pink blazer"
     },
     {
         "scan": "00950_Outer",
         "dataset": "2k2k",
-        "inner": "sweater with horizontal gray, white, and red stripes"
+        "inner": "sweater with horizontal gray, white, and red stripes",
+        "outer": "dark gray coat"
     },
     {
         "scan": "03319_Outer",
         "dataset": "2k2k",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "dark blue puffer jacker"
     },
     {
         "scan": "137011515552989",
         "dataset": "twindom_10k",
-        "inner": "light blue shirt"
+        "inner": "light blue shirt",
+        "outer": "black blazer"
     },
     {
         "scan": "02195_Outer",
         "dataset": "2k2k",
-        "inner": "navy blue shirt with design: JUST DO IT icon LATER"
+        "inner": "navy blue shirt with design: JUST DO IT icon LATER",
+        "outer": "black cardigan"
     },
     {
         "scan": "125611521914479",
         "dataset": "twindom_10k",
-        "inner": "black shirt"
+        "inner": "black shirt",
+        "outer": "brown leather jacket"
     },
     {
         "scan": "rp_ramon_posed_008_30k",
         "dataset": "renderpeople_1",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "black blazer"
     },
     {
         "scan": "01739_Outer",
         "dataset": "2k2k",
-        "inner": "shirt with horizontal black and white stripes"
+        "inner": "shirt with horizontal black and white stripes",
+        "outer": "dark blue long coat"
     },
     {
         "scan": "129311467940388",
         "dataset": "twindom_10k",
-        "inner": "deep blue shirt"
+        "inner": "deep blue shirt",
+        "outer": "gray blazer"
     },
     {
         "scan": "126411505070933",
         "dataset": "twindom_10k",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "white and dark blue branded jacket"
     },
     {
         "scan": "03007_Outer",
         "dataset": "2k2k",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "bright red rain jacket"
     },
     {
         "scan": "rp_julia_posed_032_30k",
         "dataset": "renderpeople_1",
-        "inner": "white top"
+        "inner": "white top",
+        "outer": "white long cardigan"
     },
     {
         "scan": "rp_philip_posed_025_30k",
         "dataset": "renderpeople_1",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "black blazer"
     },
     {
         "scan": "10071_6975",
         "dataset": "closedi",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "white blazer"
     },
     {
         "scan": "02112_Outer",
         "dataset": "2k2k",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "black blazer"
     },
     {
         "scan": "137011515621492",
         "dataset": "twindom_10k",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "light brown blazer"
     },
     {
         "scan": "10001_1946",
         "dataset": "closedi",
-        "inner": "blue shirt"
+        "inner": "blue shirt",
+        "outer": "dark blue blazer"
     },
     {
         "scan": "CWom0340-HD2-O02P01-S",
         "dataset": "axyz",
-        "inner": "white top"
+        "inner": "white top",
+        "outer": "white and black long shirt"
     },
     {
         "scan": "128911534888278",
         "dataset": "twindom_10k",
-        "inner": "dark blue shirt with octopus print"
+        "inner": "dark blue shirt with octopus print",
+        "outer": "blue zipper hoodie"
     },
     {
         "scan": "01743_Outer",
         "dataset": "2k2k",
-        "inner": "light gray shirt"
+        "inner": "light gray shirt",
+        "outer": "camo shirt"
     },
     {
         "scan": "125611509653225",
         "dataset": "twindom_10k",
-        "inner": "gray polo shirt"
+        "inner": "gray polo shirt",
+        "outer": "gray hoodie"
     },
     {
         "scan": "03172_Outer",
         "dataset": "2k2k",
-        "inner": "black shirt"
+        "inner": "black shirt",
+        "outer": "white and black long cardigan"
     },
     {
         "scan": "rp_jessica_posed_018_30k",
         "dataset": "renderpeople_1",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "dark blue blazer"
     },
     {
         "scan": "00160_Outer",
         "dataset": "2k2k",
-        "inner": "white shirt and red tie"
+        "inner": "white shirt and red tie",
+        "outer": "black blazer"
     },
     {
         "scan": "00096_Outer",
         "dataset": "2k2k",
-        "inner": "white dotted blouse"
+        "inner": "white dotted blouse",
+        "outer": "beige blazer"
     },
     {
         "scan": "137011515711414",
         "dataset": "twindom_10k",
-        "inner": "blue and white striped shirt"
+        "inner": "blue and white striped shirt",
+        "outer": "dark gray blazer"
     },
     {
         "scan": "01658_Outer",
         "dataset": "2k2k",
-        "inner": "shirt with horizontal black and white stripes"
+        "inner": "shirt with horizontal black and white stripes",
+        "outer": "black cardigan"
     },
     {
         "scan": "04377_Outer",
         "dataset": "2k2k",
-        "inner": "gray poncho"
+        "inner": "gray poncho",
+        "outer": "flower pattern long shirt"
     },
     {
         "scan": "rp_philip_posed_027_30k",
         "dataset": "renderpeople_1",
-        "inner": "light blue shirt"
+        "inner": "light blue shirt",
+        "outer": "light gray blazer"
     },
     {
         "scan": "00204_Outer",
         "dataset": "2k2k",
-        "inner": "white shirt and black tie with white diagonal lines"
+        "inner": "white shirt and black tie with white diagonal lines",
+        "outer": "black blazer"
     },
     {
         "scan": "02366_Outer",
         "dataset": "2k2k",
-        "inner": "white shirt and red tie"
+        "inner": "white shirt and red tie",
+        "outer": "black blazer"
     },
     {
         "scan": "rp_mark_posed_005_30k",
         "dataset": "renderpeople_1",
-        "inner": "light blue shirt"
+        "inner": "light blue shirt",
+        "outer": "black blazer"
     },
     {
         "scan": "CGirl0302-HD2-O07P01-S",
         "dataset": "axyz",
-        "inner": "white top"
+        "inner": "white top",
+        "outer": "jean vest"
     },
     {
         "scan": "rp_joscha_posed_006_30k",
         "dataset": "renderpeople_1",
-        "inner": "white shirt and black tie"
+        "inner": "white shirt and black tie",
+        "outer": "black blazer"
     },
     {
         "scan": "rp_felice_posed_011_30k",
         "dataset": "renderpeople_0",
-        "inner": "red top"
+        "inner": "red top",
+        "outer": "black zipper hoodie"
     },
     {
         "scan": "01993_Outer",
         "dataset": "2k2k",
-        "inner": "gray shirt"
+        "inner": "gray t-shirt",
+        "outer": "black jacket"
     },
     {
         "scan": "137011515540650",
         "dataset": "twindom_10k",
-        "inner": "white and black square patterned shirt"
+        "inner": "white and black square patterned shirt",
+        "outer": "black vest"
     },
     {
         "scan": "126811501259356",
         "dataset": "twindom_10k",
-        "inner": "white shirt with blue bun"
+        "inner": "white shirt with blue bun",
+        "outer": "gray blazer"
     },
     {
         "scan": "00948_Outer",
         "dataset": "2k2k",
-        "inner": "white long sleeve shirt"
+        "inner": "white long sleeve shirt",
+        "outer": "black puffy vest"
     },
     {
         "scan": "126411450574617",
         "dataset": "twindom_10k",
-        "inner": "white shirt with print on it"
+        "inner": "white shirt with print on it",
+        "outer": "dark gray jacket with hoodie"
     },
     {
         "scan": "CMan0324-HD2-O02P01-S",
         "dataset": "axyz",
-        "inner": "light blue shirt"
+        "inner": "light blue shirt",
+        "outer": "blue jacket and green vest"
     },
     {
         "scan": "02015_Outer",
         "dataset": "2k2k",
-        "inner": "dark blue shirt"
+        "inner": "dark blue shirt",
+        "outer": "bright red jacket"
     },
     {
         "scan": "rp_dave_posed_001_30k",
         "dataset": "renderpeople_1",
-        "inner": "white shirt"
+        "inner": "white shirt",
+        "outer": "black blazer"
     },
     {
         "scan": "00951_Outer",
         "dataset": "2k2k",
-        "inner": "red and white square patterned shirt"
+        "inner": "red and white square patterned shirt",
+        "outer": "light purple cardigan"
     },
     {
         "scan": "126411448477651",
         "dataset": "twindom_10k",
-        "inner": "yellow mustard shirt"
+        "inner": "yellow mustard shirt",
+        "outer": "blue puffer vest"
     },
     {
         "scan": "00757_Inner",
         "dataset": "2k2k",
-        "inner": "jeans shirt"
+        "inner": "jeans shirt",
+        "outer": "orange sweater"
     },
     {
         "scan": "01466_Outer",
         "dataset": "2k2k",
-        "inner": "white shirt and light orange tie"
+        "inner": "white shirt and light orange tie",
+        "outer": "black blazer"
     },
     {
         "scan": "126411448148548",
         "dataset": "twindom_10k",
         "inner": "light blue shirt and a dark blue tie",
-        "outer": "jacket"
+        "outer": "dark blue blazer"
     },
     {
         "scan": "00965_Inner",
@@ -496,7 +549,7 @@
         "scan": "02945_Outer",
         "dataset": "2k2k",
         "inner": "white shirt",
-        "outer": "dark blazer"
+        "outer": "black blazer"
     },
     {
         "scan": "128911532479393",
