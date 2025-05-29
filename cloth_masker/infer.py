@@ -1,3 +1,4 @@
+from PIL import Image
 import os
 from tqdm import tqdm
 from huggingface_hub import snapshot_download
@@ -16,21 +17,25 @@ automasker = AutoMasker(
     device='cuda', 
 )
 
-images_dir = '/mnt/lustre/work/ponsmoll/pba534/inpaint/data/images/front/'
-results_dir = '/mnt/lustre/work/ponsmoll/pba534/inpaint/data/masks/front/'
-mask_types = ['upper', 'outer']
 
-for image_fn in tqdm(os.listdir(images_dir)):
-    person_image = load_image(os.path.join(images_dir, image_fn))
-    # new_width = (person_image.width // 4) * 4
-    # new_height = (person_image.height // 4) * 4
-    # person_image = person_image.resize((new_width, new_height))
-    for mask_type in mask_types:
-        return_dir = automasker(person_image, mask_type)
-        mask = return_dir['mask']
-        densepose = return_dir['densepose']
-        schp_lip = return_dir['schp_lip']
-        schp_atr = return_dir['schp_atr']
+for view in ['front', 'fb']:
+    images_dir = f'/mnt/lustre/work/ponsmoll/pba534/inpaint/data/images/{view}/'
+    results_dir = f'/mnt/lustre/work/ponsmoll/pba534/inpaint/data/masks/{view}/'
 
-        masked_person = vis_mask(person_image, mask)
-        masked_person.save(os.path.join(results_dir, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
+    mask_types = ['upper', 'outer']
+    for image_fn in tqdm(os.listdir(images_dir)):
+        person_image = load_image(os.path.join(images_dir, image_fn))
+        # new_width = (person_image.width // 4) * 4
+        # new_height = (person_image.height // 4) * 4
+        # person_image = person_image.resize((new_width, new_height))
+        for mask_type in mask_types:
+            return_dir = automasker(person_image, mask_type)
+            mask = return_dir['mask']
+            densepose = return_dir['densepose']
+            schp_lip = return_dir['schp_lip']
+            schp_atr = return_dir['schp_atr']
+
+            mask.save(os.path.join(results_dir, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
+   
+#            masked_person = vis_mask(person_image, mask)
+#            masked_person.save(os.path.join(results_dir, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
