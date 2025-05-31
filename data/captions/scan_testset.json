@@ -104,7 +104,7 @@
     {
         "scan": "rp_julia_posed_032_30k",
         "dataset": "renderpeople_1",
-        "inner": "white top",
+        "inner": "white top and scarf",
         "outer": "white long cardigan"
     },
     {
@@ -278,8 +278,8 @@
     {
         "scan": "CMan0324-HD2-O02P01-S",
         "dataset": "axyz",
-        "inner": "light blue shirt",
-        "outer": "blue jacket and green vest"
+        "inner": "light blue shirt and green vest",
+        "outer": "blue jacket"
     },
     {
         "scan": "02015_Outer",

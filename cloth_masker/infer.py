@@ -17,10 +17,13 @@ automasker = AutoMasker(
     device='cuda', 
 )
 
+local_dir = '/home/cesar/Documents/WS2425/Avatar25/inpaint-fluxfill'
+cluster_dir = '/mnt/lustre/work/ponsmoll/pba534/inpaint'
 
 for view in ['front', 'fb']:
-    images_dir = f'/mnt/lustre/work/ponsmoll/pba534/inpaint/data/images/{view}/'
-    results_dir = f'/mnt/lustre/work/ponsmoll/pba534/inpaint/data/masks/{view}/'
+    images_dir = f'{local_dir}/data/images/{view}/'
+    results_dir = f'{local_dir}/data/masks_nohull_nofindil_nogss/{view}/'
+    os.makedirs(results_dir, exist_ok=True)
 
     mask_types = ['upper', 'outer']
     for image_fn in tqdm(os.listdir(images_dir)):
@@ -35,7 +38,7 @@ for view in ['front', 'fb']:
             schp_lip = return_dir['schp_lip']
             schp_atr = return_dir['schp_atr']
 
-            mask.save(os.path.join(results_dir, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
+            # mask.save(os.path.join(results_dir, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
    
-#            masked_person = vis_mask(person_image, mask)
-#            masked_person.save(os.path.join(results_dir, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
+            masked_person = vis_mask(person_image, mask)
+            masked_person.save(os.path.join(results_dir, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
