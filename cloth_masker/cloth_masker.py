@@ -190,7 +190,7 @@ class AutoMasker:
         schp_lip_mask: Image.Image,
         schp_atr_mask: Image.Image,
         part: str='overall',
-        tight: bool = False,
+        upper: bool = False,
         **kwargs
     ):
         assert part in ['upper', 'lower', 'overall', 'inner', 'outer'], f"part should be one of ['upper', 'lower', 'overall', 'inner', 'outer'], but got {part}"
@@ -239,24 +239,25 @@ class AutoMasker:
 
         mask_area = (np.ones_like(densepose_mask) & (~weak_protect_area) & (~background_area)) | mask_dense_area
 
-        if not tight:
+        if not upper:
             mask_area = hull_mask(mask_area * 255) // 255  # Convex Hull to expand the mask area
         mask_area = mask_area & (~weak_protect_area)
-        if not tight:
+        if not upper:
             mask_area = cv2.GaussianBlur(mask_area * 255, (kernal_size, kernal_size), 0)
         mask_area[mask_area < 25] = 0
         mask_area[mask_area >= 25] = 1
         mask_area = (mask_area | strong_mask_area) & (~strong_protect_area)
-        if not tight:
-            mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=5)
-        else:
+        if not upper:
             mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=1)
+        else:
+            mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=5)
         return Image.fromarray(mask_area * 255)
         
     def __call__(
         self,
         image: Union[str, Image.Image],
         mask_type: str = "upper",
+        upper: bool = False,
     ):
         assert mask_type in ['upper', 'lower', 'overall', 'inner', 'outer'], f"mask_type should be one of ['upper', 'lower', 'overall', 'inner', 'outer'], but got {mask_type}"
         preprocess_results = self.preprocess_image(image)
@@ -265,6 +266,7 @@ class AutoMasker:
             preprocess_results['schp_lip'], 
             preprocess_results['schp_atr'], 
             part=mask_type,
+            upper=upper
         )
         return {
             'mask': mask,
