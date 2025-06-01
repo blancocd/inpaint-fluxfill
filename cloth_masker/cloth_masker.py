@@ -246,8 +246,11 @@ class AutoMasker:
             mask_area = cv2.GaussianBlur(mask_area * 255, (kernal_size, kernal_size), 0)
         mask_area[mask_area < 25] = 0
         mask_area[mask_area >= 25] = 1
-        mask_area = (mask_area | strong_mask_area) & (~strong_protect_area) 
-        mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=5)
+        mask_area = (mask_area | strong_mask_area) & (~strong_protect_area)
+        if not tight:
+            mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=5)
+        else:
+            mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=1)
         return Image.fromarray(mask_area * 255)
         
     def __call__(
