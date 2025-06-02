@@ -117,10 +117,12 @@ dense_mask_parts = {
     'outer': ['torso', 'big arms', 'forearms']
 }
 
-def vis_mask(image, mask):
+def vis_mask(image, mask, partial_transparency: bool = False):
+    mask_value = 188 if partial_transparency else 255
+
     image = np.array(image).astype(np.uint8)
     mask = np.array(mask).astype(np.uint8)
-    mask[mask > 127] = 255
+    mask[mask > 127] = mask_value
     mask[mask <= 127] = 0
     mask = np.expand_dims(mask, axis=-1)
     mask = np.repeat(mask, 3, axis=-1)
@@ -250,7 +252,7 @@ class AutoMasker:
         if not upper:
             mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=1)
         else:
-            mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=5)
+            mask_area = cv2.dilate(mask_area, dilate_kernel, iterations=1)
         return Image.fromarray(mask_area * 255)
         
     def __call__(

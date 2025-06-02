@@ -23,10 +23,10 @@ mydir = cluster_dir
 
 for view in ['front', 'fb']:
     images_dir = f'{mydir}/data/images/{view}/'
-    results_dir = f'{mydir}/data/upper_masks/{view}/'
+    results_dir = f'{mydir}/data/outer_masks/{view}/'
     os.makedirs(results_dir, exist_ok=True)
 
-    results_dir2 = f'{mydir}/data/applied_upper_masks/{view}/'
+    results_dir2 = f'{mydir}/data/applied_outer_masks/{view}/'
     os.makedirs(results_dir2, exist_ok=True)
 
     # mask_types = ['upper', 'outer']
@@ -45,5 +45,5 @@ for view in ['front', 'fb']:
 
             mask.save(os.path.join(results_dir, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
    
-            masked_person = vis_mask(person_image, mask)
+            masked_person = vis_mask(person_image, mask, partial_transparency=True)
             masked_person.save(os.path.join(results_dir2, f'{str(Path(image_fn).stem)}_{mask_type}.png'))
