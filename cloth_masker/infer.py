@@ -30,7 +30,7 @@ for view in ['front', 'fb']:
     os.makedirs(results_dir2, exist_ok=True)
 
     # mask_types = ['upper', 'outer']
-    mask_types = ['upper']
+    mask_types = ['outer']
     for image_fn in tqdm(os.listdir(images_dir)):
         person_image = load_image(os.path.join(images_dir, image_fn))
         # new_width = (person_image.width // 4) * 4
