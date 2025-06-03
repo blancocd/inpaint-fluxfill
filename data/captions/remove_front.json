@@ -2,26 +2,31 @@
   {
     "scan_id": 1,
     "inner": "a blouse with dark blue and white horizontal stripes",
-    "outer": "jean jacket"
+    "outer": "jean jacket",
+    "general_outer": "jacket"
   },
   {
     "scan_id": 4,
     "inner": "a shirt with a blue and white pattern",
-    "outer": "light brown sweater"
+    "outer": "light brown sweater",
+    "general_outer": "sweater"
   },
   {
     "scan_id": 1584,
     "inner": "a tshirt with icons along the chest",
-    "outer": "light gray hoodie"
+    "outer": "light gray hoodie",
+    "general_outer": "hoodie"
   },
   {
     "scan_id": 1628,
     "inner": "a blue t-shirt",
-    "outer": "light gray hoodie"
+    "outer": "light gray hoodie",
+    "general_outer": "hoodie"
   },
   {
     "scan_id": 1664,
     "inner": "a white t-shirt with the word DAD across the chest",
-    "outer": "black closed cardigan"
+    "outer": "black closed cardigan",
+    "general_outer": "cardigan"
   }
 ]
