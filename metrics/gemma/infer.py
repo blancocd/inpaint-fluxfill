@@ -19,7 +19,7 @@ processor = AutoProcessor.from_pretrained(model_id)
 #     torch_dtype=torch.bfloat16
 # )
 
-input_dir = '/mnt/lustre/work/ponsmoll/pba534/inpaint/results/front/remove/'
+input_dir = '/mnt/lustre/work/ponsmoll/pba534/inpaint/results/nonmasked_garment/front'
 mask_types = ['garment_mask', 'upper_mask']
 
 

@@ -20,7 +20,7 @@ def nand_image(img1, img2):
     img2_bin = (img2_np > 127).astype(np.uint8)
 
     # Compute NAND: invert (img1 AND img2)
-    nand_mask = np.logical_not(np.logical_and(img1_bin, img2_bin)).astype(np.uint8) * 255
+    nand_mask = np.logical_xor(img1_bin, img2_bin).astype(np.uint8) * 255
 
     # Convert back to PIL Image
     return Image.fromarray(nand_mask, mode='L')

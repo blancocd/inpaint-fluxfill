@@ -1,0 +1,1002 @@
+[
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a white suit jacket.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a traditional Chinese-style jacket with buttons.",
+      "no_prompt": "Yes, the person is wearing a turtleneck sweater."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a polo shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, it appears to be a burgundy-colored tweed jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a quilted, down-filled jacket with a hood."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a gray suit jacket.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a long-sleeved shirt and a tie."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "No, the person in the image is wearing a blouse."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a matching blazer and pants set.",
+      "no_prompt": "The person in the image is wearing a vest."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket and a cardigan.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan and a jacket."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a shirt, t-shirt or blouse. They are wearing a vest as well, but not a jacket, cardigan, sweater, or coat.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "The person in the image is wearing a cardigan.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a t-shirt.",
+      "no_prompt": "No. The person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person is wearing a jacket. Specifically, it appears to be a denim vest.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It appears to be a lightweight, draped jacket or shawl."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light gray blazer.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, it appears to be a tweed jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan. \n\nIt\u2019s a long, open-front cardigan with a textured pattern and fringe detailing."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light beige, single-breasted jacket with short sleeves.",
+      "no_prompt": "Yes, the person is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person is wearing a cardigan.",
+      "no_prompt": "Yes, the person is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, it\u2019s a dark gray suit jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a white blazer."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt (a long-sleeved white shirt), suspenders, jeans, and boots.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a white tank top.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a tank top."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a t-shirt.",
+      "no_prompt": "No. The person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person is wearing a cardigan.",
+      "no_prompt": "Yes, the person is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a shirt.",
+      "no_prompt": "No, the person in the image is only wearing a shirt. It appears to be a short-sleeved polo shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a vest. It\u2019s a decorative vest with a patterned design.",
+      "no_prompt": "No. The person in the image is only wearing a shirt (a white button-down blouse)."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light gray, single-breasted blazer.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt, a tie, and pants."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a blue striped blazer."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a long-sleeved shirt.",
+      "no_prompt": "No, the person in the image is only wearing a long-sleeved shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a dress.",
+      "no_prompt": "Yes, the person is wearing a sweater. It appears to be a long-sleeved, loose-fitting sweater with a draped design."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a dark grey, tailored suit jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a dark grey suit jacket."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light gray, single-breasted blazer.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt, specifically a long-sleeved white dress shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a shirt.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a white tank top.",
+      "no_prompt": "No. The person in the image is only wearing a white tank top."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a denim jacket.",
+      "no_prompt": "Yes, the person is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a long-sleeved shirt.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a long-sleeved shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, it appears to be a white suit jacket.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt, a bow tie, and trousers."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person is wearing a sweater.",
+      "no_prompt": "Yes, the person is wearing a sweater. It\u2019s a long-sleeved, crewneck sweater."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, it\u2019s a denim vest.",
+      "no_prompt": "The person in the image is wearing a hooded vest."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a vest.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt, a vest, and pants."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, a bright red blazer.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It appears to be a dark blue, button-up jacket layered over a long-sleeved shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "The person in the image is wearing a vest.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a long-sleeved shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "No, the person in the image is only wearing a shirt. It appears to be a long-sleeved polo shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person is wearing a vest. It\u2019s a decorative vest with red and black detailing.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. Specifically, it\u2019s a denim vest layered over a blue shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light gray suit jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It appears to be a white blazer."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt, a tie, and suspenders. There is no jacket, cardigan, sweater, or coat visible.",
+      "no_prompt": "No, the person in the image is only wearing a shirt. They are wearing a light blue shirt with suspenders and a tie."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a sweater. It\u2019s a long-sleeved, button-down style sweater.",
+      "no_prompt": "No, the person in the image is only wearing a shirt, specifically a long-sleeved button-down blouse."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a t-shirt.",
+      "no_prompt": "Yes, the person in the image is wearing a sweater. Specifically, it\u2019s a long-sleeved white sweater with printed text on it."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person is wearing a denim vest.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a blazer-style jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan. It\u2019s a gray, open-front cardigan draped over a top."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a shirt (a blouse, specifically)."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a gray suit jacket.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a light blue, slightly oversized jacket with a relaxed fit.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It appears to be a long, light blue jacket with a mandarin collar and a slightly draped style."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a gray, button-down jacket with pockets.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a gray zip-up jacket with a white graphic tee underneath."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a sweater. It\u2019s a long-sleeved, striped sweater with a crew neck.",
+      "no_prompt": "Yes, the person in the image is wearing a sweater. It\u2019s a long-sleeved, striped sweater with a v-neck."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, it appears to be a dark blue suit jacket.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "The person in the image is wearing a cardigan.",
+      "no_prompt": "Yes, the person is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a sweater. Specifically, it\u2019s a hooded sweatshirt.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a shirt and a jumpsuit.",
+      "no_prompt": "No, the person in the image is only wearing a jumpsuit."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a sweater.",
+      "no_prompt": "The person in the image is wearing a sweater."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a tank top.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a tank top."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a shirt (a blouse).",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It appears to be a lightweight, button-down jacket."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light-colored, single-breasted blazer.",
+      "no_prompt": "No, the person in the image is only wearing a shirt. It appears to be a long-sleeved button-down shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a white shirt, suspenders, jeans, and shoes. There is no jacket, cardigan, sweater, or coat visible.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a blue plaid jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a blue denim jacket."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a t-shirt.",
+      "no_prompt": "No, the person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt, a tie, and pants.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt, a tie, and pants."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a shirt, vest, and trousers. There is no jacket, cardigan, sweater, or coat present.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt, a vest, and suspenders. There is no jacket, cardigan, sweater, or coat present."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a shirt.",
+      "no_prompt": "Yes, the person in the image is wearing a sweater."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a t-shirt.",
+      "no_prompt": "No, the person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, it\u2019s a suit jacket.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light beige, double-breasted blazer.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket and a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a cropped, open-front jacket with a textured, possibly beaded, design.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a yellow blazer."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. Specifically, it\u2019s a blue patterned waistcoat.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It appears to be a light gray blazer."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a tailored, plaid blazer.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light blue blazer."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a blazer.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It appears to be a gray blazer."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a denim jacket.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It appears to be a lightweight, olive green jacket with a button-down front."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is only wearing a t-shirt.",
+      "no_prompt": "No. The person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. \n\nThe person in the image is wearing a short-sleeved shirt.",
+      "no_prompt": "No. The person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No, the person in the image is only wearing a shirt.",
+      "no_prompt": "No. The person in the image is only wearing a long-sleeved shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a white, tailored blazer.",
+      "no_prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a white, tailored blazer."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "Yes, the person in the image is wearing a cardigan."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": false
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a t-shirt.",
+      "no_prompt": "No, the person in the image is only wearing a long-sleeved shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a cardigan.",
+      "no_prompt": "No, the person in the image is only wearing a dress."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It\u2019s a light-colored, double-breasted blazer.",
+      "no_prompt": "No. The person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "Yes, the person in the image is wearing a jacket. It appears to be a gray, zippered jacket.",
+      "no_prompt": "No. The person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": false,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a t-shirt.",
+      "no_prompt": "No. The person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a t-shirt.",
+      "no_prompt": "No. The person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  },
+  {
+    "full_answer": {
+      "prompt": "No. The person in the image is only wearing a tank top and pants.",
+      "no_prompt": "No. \n\nThe person in the image is only wearing a t-shirt."
+    },
+    "succesful": {
+      "prompt": true,
+      "no_prompt": true
+    }
+  }
+]
