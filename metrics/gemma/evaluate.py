@@ -34,11 +34,11 @@ for idx, garment_dict in tqdm(enumerate(garments)):
         outer_garm_types_str = outer_garm_types[0]
 
     
-    prompt = f'Answer yes if the person in the image is wearing a {outer_garm_types_str}. Answer no if the person is only wearing a {inner_garm}, shirt, t-shirt, or blouse.'
+    prompt = f'Answer yes if the person in the image is wearing a {outer_garm_type}. Answer no if the person is only wearing a {inner_garm}, shirt, t-shirt, or blouse.'
     messages = [
         {
             "role": "system",
-            "content": [{"type": "text", "text": "You are a helpful assistant focused on clothing description."}]
+            "content": [{"type": "text", "text": "You are a helpful assistant focused on clothing description for top body garments."}]
         },
         {
             "role": "user",

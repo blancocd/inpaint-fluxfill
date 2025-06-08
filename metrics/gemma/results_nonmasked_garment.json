@@ -1,501 +1,501 @@
 [
   {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and dark blue tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white shirt and a dark blue tie. There is no blazer, jacket, cardigan, sweater, or coat visible.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and dark blue tie, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt and a dark blue tie. There is no blazer visible.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white turtleneck shirt, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white turtleneck shirt, shirt, t-shirt, or blouse.",
     "full_answer": "No. \n\nThe person is wearing a white turtleneck shirt.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray polo shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is only wearing a gray polo shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a northface jacket, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a jacket. It\u2019s a quilted, hooded jacket.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and beige tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white shirt and a beige tie, which falls under the category of a shirt, blouse, or t-shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a ruffled white blouse, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a ruffled white blouse, not a jacket, cardigan, sweater, or coat.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt with sparse dots, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a vest over a shirt, which falls under the category of outerwear.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a coat, jacket, cardigan, or sweater. Answer no if the person is only wearing a sweater with horizontal gray, white, and red stripes, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a gray cardigan and a striped shirt, which falls under the category of sweaters and cardigans.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a puffer jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a light blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a cardigan, jacket, sweater, or coat. Answer no if the person is only wearing a navy blue shirt with design: JUST DO IT icon LATER, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a leather jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a black shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a dark gray t-shirt and a dark gray leather jacket.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a long coat, jacket, cardigan, or sweater. Answer no if the person is only wearing a shirt with horizontal black and white stripes, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a long cardigan with fringe detailing.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a deep blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a deep blue shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a white shirt layered over a tan shirt, and a white cardigan.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a rain jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a cardigan.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a cardigan, jacket, sweater, or coat. Answer no if the person is only wearing a white top and scarf, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a cardigan.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person in the image is wearing a blazer.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white shirt and pants. There is no blazer, jacket, cardigan, sweater, or coat visible.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a pink button-down shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a blue shirt, not a blazer, jacket, cardigan, sweater, or coat.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a long shirt, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white top, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white tank top.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a hoodie, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a dark blue shirt with octopus print, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a shirt, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a light gray shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a shirt, a cardigan, and jeans.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a hoodie, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray polo shirt, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a gray polo shirt, shirt, t-shirt, or blouse.",
     "full_answer": "No. \n\nThe person in the image is wearing a gray polo shirt.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a long cardigan, jacket, sweater, or coat. Answer no if the person is only wearing a black shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a long cardigan.",
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a northface jacket, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a jacket. It\u2019s a black, quilted down jacket.",
     "successful": false
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and beige tie, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white shirt and a beige tie, not a blazer.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a ruffled white blouse, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a ruffled white blouse. There is no jacket visible.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt with sparse dots, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white shirt with sparse dots, not a blazer.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a coat. Answer no if the person is only wearing a sweater with horizontal gray, white, and red stripes, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a long, gray cardigan \u2013 which functions as a coat.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a puffer jacket. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white polo shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a light blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a light blue shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a cardigan. Answer no if the person is only wearing a navy blue shirt with design: JUST DO IT icon LATER, shirt, t-shirt, or blouse.",
     "full_answer": "No.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and red tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
+    "prompt": "Answer yes if the person in the image is wearing a leather jacket. Answer no if the person is only wearing a black shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a black t-shirt.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white dotted blouse, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a cardigan.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a blue and white striped shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a blue and white striped shirt and a blue blazer.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a cardigan, jacket, sweater, or coat. Answer no if the person is only wearing a shirt with horizontal black and white stripes, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a long shirt, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray poncho, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a long, textured sweater with a flowing, asymmetrical hemline.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a light blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and black tie with white diagonal lines, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a blazer.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and red tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white shirt and a red tie. There is no blazer, jacket, cardigan, sweater, or coat visible.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a light blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a vest, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white top, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white tank top.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and black tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white shirt and a black tie. There is no blazer, jacket, cardigan, sweater, or coat visible.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a hoodie, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a red top, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a red cardigan.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray t-shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a cardigan and a t-shirt.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a vest, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white and black square patterned shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a shirt, not a vest, jacket, cardigan, sweater, or coat.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt with blue bun, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white shirt, blue bow tie, and grey trousers. There is no blazer, jacket, cardigan, sweater, or coat visible.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a puffy vest, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white long sleeve shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white long-sleeved shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket with hoodie, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt with print on it, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a gray hooded vest, a long-sleeved white shirt with a print, and black pants with a textured pattern.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a light blue shirt and green vest, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a green vest, which falls under the category of a jacket.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a dark blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a dark blue shirt layered under a dark blue jacket.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white shirt, pants, and shoes. There is no blazer, jacket, cardigan, sweater, or coat visible.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a cardigan, jacket, sweater, or coat. Answer no if the person is only wearing a red and white square patterned shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a red and white square patterned shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a puffer vest, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a yellow mustard shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a yellow shirt. There is no visible vest, jacket, cardigan, sweater, or coat.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a sweater, jacket, cardigan, or coat. Answer no if the person is only wearing a jeans shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a denim jacket and a blue long-sleeved shirt, which fall under the categories of jacket and shirt.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and light orange tie, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a blazer.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a light blue shirt and a dark blue tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a light blue shirt and a dark blue tie, but not a blazer, jacket, cardigan, sweater, or coat.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a vest, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a gray shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt with letters on it, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a long-sleeved white sweater with printed text.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a blue shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
     "full_answer": "No. \n\nThe person in the image is wearing a white shirt.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray blouse, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a gray cardigan.",
+    "prompt": "Answer yes if the person in the image is wearing a long coat. Answer no if the person is only wearing a shirt with horizontal black and white stripes, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a long-sleeved striped shirt, not a long coat.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a deep blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a blue shirt, not a blazer.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a white, open-fronted jacket.",
     "successful": false
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt with sparse dots, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white shirt with sparse dots.",
+    "prompt": "Answer yes if the person in the image is wearing a rain jacket. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white t-shirt.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and red and blue tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white shirt and a tie, but not a blazer, jacket, cardigan, sweater, or coat.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a coat, jacket, cardigan, or sweater. Answer no if the person is only wearing a light blue medic suit, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a long, light blue coat with a collar and cuffs.",
+    "prompt": "Answer yes if the person in the image is wearing a cardigan. Answer no if the person is only wearing a white top and scarf, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a cardigan.",
     "successful": false
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray jacket with big R print on it, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a gray jacket with a large \u201cR\u201d print, a white shirt, and dark blue jeans. All of these fall under the categories of jackets, cardigans, sweaters, or coats.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a bomber jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a shirt with horizontal black and blue stripes, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a sweater with horizontal stripes.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a deep blue shirt and red tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a vest, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a vest.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a sweater, jacket, cardigan, or coat. Answer no if the person is only wearing a orange shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is only wearing an orange shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a coat, jacket, cardigan, or sweater. Answer no if the person is only wearing a light blue medic suit, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a puffer jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt with big heart print on it, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a sweater with a large heart print.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a cardigan, jacket, sweater, or coat. Answer no if the person is only wearing a black top, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a black tank top.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a white blazer.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a vest, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white shirt, suspenders, jeans, and shoes. There is no vest, jacket, cardigan, sweater, or coat.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a zipper jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a green shirt with a square print on it, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a denim jacket.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a blue shirt, not a blazer, jacket, cardigan, sweater, or coat.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a hoodie, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt with big letters #1 SON on it, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a white t-shirt with the text \"#1 SON\" printed on it.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and pink tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt and red tie, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white shirt, red tie, and a burgundy vest and pants. There is no blazer, jacket, cardigan, sweater, or coat visible.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a yellow sweater, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person in the image is wearing a sweater.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a bomber jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt with colorful letters on it, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a white t-shirt with colorful letters.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white and tie with a blue and white diagonal stripe pattern, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a puffer jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a white long-sleeved shirt, a white blazer (which is a type of jacket), and jeans.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a cardigan, jacket, sweater, or coat. Answer no if the person is only wearing a yellow top, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a yellow jacket.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a puffer vest, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a grey vest that appears to be a puffer vest.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a blue shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a light blue blazer.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a gray cardigan with a zipper.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a black jordan shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a gray jacket.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a black jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a green shirt with inverted triangle print on it, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a green jacket and a dark green shirt.",
-    "successful": false
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a blue shirt with spiderman comic print on it, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person in the image is wearing a gray t-shirt.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a black and white square patterned shirt, shirt, t-shirt, or blouse.",
-    "full_answer": "No.",
-    "successful": true
-  },
-  {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
     "full_answer": "Yes. \n\nThe person in the image is wearing a blazer.",
     "successful": false
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a gray shirt with The Beatles print on it, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a gray hooded jacket and a gray cardigan.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a pink button-down shirt, not a blazer.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a blue shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a long shirt. Answer no if the person is only wearing a white top, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white tank top, not a long shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a hoodie. Answer no if the person is only wearing a dark blue shirt with octopus print, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a dark blue t-shirt with an octopus print.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a shirt. Answer no if the person is only wearing a light gray shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a long-sleeved shirt underneath a light gray cardigan.",
     "successful": false
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a shirt, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a light gray shirt with CSI print on it, shirt, t-shirt, or blouse.",
-    "full_answer": "Yes. \n\nThe person is wearing a long-sleeved shirt.",
+    "prompt": "Answer yes if the person in the image is wearing a hoodie. Answer no if the person is only wearing a gray polo shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a gray polo shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a long cardigan. Answer no if the person is only wearing a black shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a long cardigan.",
     "successful": false
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a blazer, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a black dress with red strokes, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and red tie, shirt, t-shirt, or blouse.",
     "full_answer": "No.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a hoodie, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a white t-shirt, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white dotted blouse, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white dotted blouse. There is no blazer visible.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a blue and white striped shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a blue and white striped blazer.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a cardigan. Answer no if the person is only wearing a shirt with horizontal black and white stripes, shirt, t-shirt, or blouse.",
     "full_answer": "No.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a black shirt with square print on it, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a long shirt. Answer no if the person is only wearing a gray poncho, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a long shirt with a draped, asymmetrical design. It appears to be a tunic or long-sleeved top.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a light blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a light blue shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and black tie with white diagonal lines, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a dark grey blazer.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and red tie, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white shirt and a red tie. There is no blazer visible.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a light blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a light blue shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a vest. Answer no if the person is only wearing a white top, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white tank top, not a vest.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and black tie, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt and black tie, not a blazer.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a hoodie. Answer no if the person is only wearing a red top, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a red crop top and a red cardigan, not a hoodie.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a gray t-shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a gray cardigan/vest over a gray t-shirt.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a vest. Answer no if the person is only wearing a white and black square patterned shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a long-sleeved shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt with blue bun, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt and a blue bow tie, not a blazer.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a puffy vest. Answer no if the person is only wearing a white long sleeve shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white long-sleeved shirt. There is no vest visible.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket with hoodie. Answer no if the person is only wearing a white shirt with print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a gray hooded vest.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a light blue shirt and green vest, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a light blue shirt and a green vest. They are not wearing a jacket.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a dark blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a dark blue jacket layered over a dark blue shirt.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt, not a blazer.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a cardigan. Answer no if the person is only wearing a red and white square patterned shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a red and white square patterned shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a puffer vest. Answer no if the person is only wearing a yellow mustard shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a yellow long-sleeved shirt. There is no puffer vest visible.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a sweater. Answer no if the person is only wearing a jeans shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a denim vest over a long-sleeved blue shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and light orange tie, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a blazer.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a light blue shirt and a dark blue tie, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a light blue shirt, suspenders, and a dark blue tie. There is no blazer visible.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a vest. Answer no if the person is only wearing a gray shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a gray shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a white shirt with letters on it, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a long-sleeved white shirt with printed text. It\u2019s not a jacket.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a blue shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a gray blouse, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a gray cardigan jacket.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a white shirt with sparse dots, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white shirt with sparse dots.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and red and blue tie, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white shirt and a tie, but not a blazer.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a coat. Answer no if the person is only wearing a light blue medic suit, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a long, light blue coat over their medical attire.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a gray jacket with big R print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a gray zip-up jacket.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a bomber jacket. Answer no if the person is only wearing a shirt with horizontal black and blue stripes, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a long-sleeved shirt with horizontal stripes, not a bomber jacket.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a deep blue shirt and red tie, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a deep blue shirt and a red tie. There is no blazer visible.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a vest. Answer no if the person is only wearing a gray shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a black vest layered over a gray long-sleeved shirt.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a sweater. Answer no if the person is only wearing a orange shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing an orange long-sleeved shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a coat. Answer no if the person is only wearing a light blue medic suit, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a light blue jumpsuit, which is a type of suit, but not a coat.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a puffer jacket. Answer no if the person is only wearing a white shirt with big heart print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a long-sleeved shirt with a heart print, not a puffer jacket.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a cardigan. Answer no if the person is only wearing a black top, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a black tank top.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a white blazer over a white shirt.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a vest. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt and suspenders, but not a vest.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a zipper jacket. Answer no if the person is only wearing a green shirt with a square print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a blue denim jacket with a zipper.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a blue long-sleeved shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a hoodie. Answer no if the person is only wearing a white shirt with big letters #1 SON on it, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white t-shirt with the text \"#1 SON\" printed on it.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and pink tie, shirt, t-shirt, or blouse.",
     "full_answer": "No.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a hoodie, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a dark gray shirt with icons on it, shirt, t-shirt, or blouse.",
-    "full_answer": "No. \n\nThe person is wearing a dark gray t-shirt with icons on it.",
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt and red tie, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white shirt and a red tie, but not a blazer.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a hoodie, jacket, cardigan, sweater, or coat. Answer no if the person is only wearing a navy blue shirt, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a yellow sweater, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a yellow sweater.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a bomber jacket. Answer no if the person is only wearing a white shirt with colorful letters on it, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white t-shirt with colorful lettering.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white and tie with a blue and white diagonal stripe pattern, shirt, t-shirt, or blouse.",
     "full_answer": "No.",
     "successful": true
   },
   {
-    "prompt": "Answer yes if the person in the image is wearing a cardigan, jacket, sweater, or coat. Answer no if the person is only wearing a white shirt with DAD printed on it, shirt, t-shirt, or blouse.",
+    "prompt": "Answer yes if the person in the image is wearing a puffer jacket. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a white shirt and a white blazer. There is no puffer jacket visible.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a cardigan. Answer no if the person is only wearing a yellow top, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a yellow jacket and a yellow top. There is no cardigan present.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a puffer vest. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a gray vest, but it is not a puffer vest. It appears to be a lightweight, textured vest.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a light blue blazer.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a gray shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a gray cardigan jacket.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a black jordan shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a gray jacket.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a black jacket. Answer no if the person is only wearing a green shirt with inverted triangle print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a green shirt with an inverted triangle print.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a blue shirt with spiderman comic print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "No.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a gray shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a gray t-shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a black and white square patterned shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a long-sleeved, checkered shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a white shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person in the image is wearing a blazer.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a gray shirt with The Beatles print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes. \n\nThe person is wearing a gray hooded jacket.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a shirt. Answer no if the person is only wearing a light gray shirt with CSI print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "Yes.",
+    "successful": false
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a blazer. Answer no if the person is only wearing a black dress with red strokes, shirt, t-shirt, or blouse.",
+    "full_answer": "No.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a hoodie. Answer no if the person is only wearing a white t-shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a white t-shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a jacket. Answer no if the person is only wearing a black shirt with square print on it, shirt, t-shirt, or blouse.",
+    "full_answer": "No.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a hoodie. Answer no if the person is only wearing a dark gray shirt with icons on it, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person is wearing a dark gray t-shirt with icons printed on it.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a hoodie. Answer no if the person is only wearing a navy blue shirt, shirt, t-shirt, or blouse.",
+    "full_answer": "No. \n\nThe person in the image is wearing a navy blue t-shirt.",
+    "successful": true
+  },
+  {
+    "prompt": "Answer yes if the person in the image is wearing a cardigan. Answer no if the person is only wearing a white shirt with DAD printed on it, shirt, t-shirt, or blouse.",
     "full_answer": "No.",
     "successful": true
   }
