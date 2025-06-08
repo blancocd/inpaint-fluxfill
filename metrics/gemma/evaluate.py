@@ -1,10 +1,9 @@
-from transformers import pipeline, AutoProcessor, Gemma3ForConditionalGeneration
+from transformers import AutoProcessor, Gemma3ForConditionalGeneration
 import torch
 import json
-import numpy as np
 import os
 from tqdm import tqdm
-from PIL import Image
+from diffusers.utils import load_image, make_image_grid
 
 model_id = "google/gemma-3-4b-it"
 model = Gemma3ForConditionalGeneration.from_pretrained(
@@ -12,6 +11,7 @@ model = Gemma3ForConditionalGeneration.from_pretrained(
 ).eval()
 processor = AutoProcessor.from_pretrained(model_id)
 
+images_dir = '/mnt/lustre/work/ponsmoll/pba534/inpaint/data/images/front'
 results_dir = '/mnt/lustre/work/ponsmoll/pba534/inpaint/results/nonmasked_garment/front'
 
 results_list = []
@@ -20,7 +20,16 @@ count_prompt = 0
 for idx in tqdm(range(100)):
     scan_id = str(idx)
 
-    prompt = 'Is the person in the image wearing a jacket, cardigan, sweater, or coat? Answer yes if that is the case and no if the person is only wearing a shirt, t-shirt or blouse.'
+    img = load_image(os.path.join(images_dir, scan_id + '.png'))
+    img_prompt = load_image(os.path.join(results_dir, f'{scan_id}_prompt.png'))
+    img_noprompt = load_image(os.path.join(results_dir, f'{scan_id}_noprompt.png'))
+    
+    os.makedirs(os.path.join(results_dir, 'grid2'), exist_ok=True)
+    make_image_grid([img, img_prompt], 1, 2).save(os.path.join(results_dir, 'grid2', f'{scan_id}_prompt.png'))
+    make_image_grid([img, img_noprompt], 1, 2).save(os.path.join(results_dir, 'grid2', f'{scan_id}_noprompt.png'))
+
+    # prompt = 'Is the person in the image wearing a jacket, cardigan, sweater, or coat? Answer yes if that is the case and no if the person is only wearing a shirt, t-shirt or blouse.'
+    prompt = 'In the image, the person on the left is wearing a jacket, cardigan, sweater, or coat. In the right, the same person **should** not be wearing a top garment and instead only be wearing a shirt, t-shirt or blouse. I am testing a model which removes top garments, is the person on the right wearing the top garment from the left image? Answer yes if that is the case and no if the person is wearing the inner garment.'
     messages = [
     [
         {
@@ -30,11 +39,11 @@ for idx in tqdm(range(100)):
         {
             "role": "user",
             "content": [
-                {"type": "image", "path": os.path.join(results_dir, f'{scan_id}_noprompt.png')},
+                {"type": "image", "path": os.path.join(results_dir, 'grid2', f'{scan_id}_prompt.png')},
                 {"type": "text", "text": prompt}
             ]
         }
-    ], 
+    ],
     [
         {
             "role": "system",
@@ -43,11 +52,11 @@ for idx in tqdm(range(100)):
         {
             "role": "user",
             "content": [
-                {"type": "image", "path": os.path.join(results_dir, f'{scan_id}_prompt.png')},
+                {"type": "image", "path": os.path.join(results_dir, 'grid2', f'{scan_id}_noprompt.png')},
                 {"type": "text", "text": prompt}
             ]
         }
-    ] 
+    ]
     ]
 
     outputs = []
