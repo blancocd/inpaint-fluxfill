@@ -3,8 +3,7 @@
         "scan": "00208_Outer",
         "dataset": "2k2k",
         "inner": "white shirt and dark blue tie",
-        "outer": "black blazer",
-        "outer_gen": "black blazer"
+        "outer": "black blazer"
     },
     {
         "scan": "03348_Outer",
@@ -279,7 +278,7 @@
     {
         "scan": "CMan0324-HD2-O02P01-S",
         "dataset": "axyz",
-        "inner": "light blue shirt and green vest",
+        "inner": "light blue shirt and green sweater",
         "outer": "blue jacket"
     },
     {
