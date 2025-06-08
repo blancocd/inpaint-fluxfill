@@ -3,7 +3,8 @@
         "scan": "00208_Outer",
         "dataset": "2k2k",
         "inner": "white shirt and dark blue tie",
-        "outer": "black blazer"
+        "outer": "black blazer",
+        "outer_gen": "black blazer"
     },
     {
         "scan": "03348_Outer",
@@ -51,7 +52,7 @@
         "scan": "03319_Outer",
         "dataset": "2k2k",
         "inner": "white shirt",
-        "outer": "dark blue puffer jacker"
+        "outer": "dark blue puffer-jacket"
     },
     {
         "scan": "137011515552989",
@@ -69,7 +70,7 @@
         "scan": "125611521914479",
         "dataset": "twindom_10k",
         "inner": "black shirt",
-        "outer": "brown leather jacket"
+        "outer": "brown leather-jacket"
     },
     {
         "scan": "rp_ramon_posed_008_30k",
@@ -81,7 +82,7 @@
         "scan": "01739_Outer",
         "dataset": "2k2k",
         "inner": "shirt with horizontal black and white stripes",
-        "outer": "dark blue long coat"
+        "outer": "dark blue long-coat"
     },
     {
         "scan": "129311467940388",
@@ -99,7 +100,7 @@
         "scan": "03007_Outer",
         "dataset": "2k2k",
         "inner": "white shirt",
-        "outer": "bright red rain jacket"
+        "outer": "bright red rain-jacket"
     },
     {
         "scan": "rp_julia_posed_032_30k",
@@ -141,7 +142,7 @@
         "scan": "CWom0340-HD2-O02P01-S",
         "dataset": "axyz",
         "inner": "white top",
-        "outer": "white and black long shirt"
+        "outer": "white and black long-shirt"
     },
     {
         "scan": "128911534888278",
@@ -165,7 +166,7 @@
         "scan": "03172_Outer",
         "dataset": "2k2k",
         "inner": "black shirt",
-        "outer": "white and black long cardigan"
+        "outer": "white and black long-cardigan"
     },
     {
         "scan": "rp_jessica_posed_018_30k",
@@ -201,7 +202,7 @@
         "scan": "04377_Outer",
         "dataset": "2k2k",
         "inner": "gray poncho",
-        "outer": "flower pattern long shirt"
+        "outer": "flower pattern long-shirt"
     },
     {
         "scan": "rp_philip_posed_027_30k",
@@ -267,13 +268,13 @@
         "scan": "00948_Outer",
         "dataset": "2k2k",
         "inner": "white long sleeve shirt",
-        "outer": "black puffy vest"
+        "outer": "black puffy-vest"
     },
     {
         "scan": "126411450574617",
         "dataset": "twindom_10k",
         "inner": "white shirt with print on it",
-        "outer": "dark gray jacket with hoodie"
+        "outer": "dark gray jacket-with-hoodie"
     },
     {
         "scan": "CMan0324-HD2-O02P01-S",
@@ -303,7 +304,7 @@
         "scan": "126411448477651",
         "dataset": "twindom_10k",
         "inner": "yellow mustard shirt",
-        "outer": "blue puffer vest"
+        "outer": "blue puffer-vest"
     },
     {
         "scan": "00757_Inner",
@@ -381,7 +382,7 @@
         "scan": "01780_Outer",
         "dataset": "2k2k",
         "inner": "shirt with horizontal black and blue stripes",
-        "outer": "navy blue bomber jacket"
+        "outer": "navy blue bomber-jacket"
     },
     {
         "scan": "00497_Outer",
@@ -411,7 +412,7 @@
         "scan": "01704_Outer",
         "dataset": "2k2k",
         "inner": "white shirt with big heart print on it",
-        "outer": "green puffer jacket"
+        "outer": "green puffer-jacket"
     },
     {
         "scan": "135011505411691",
@@ -435,13 +436,13 @@
         "scan": "04566_Outer",
         "dataset": "2k2k",
         "inner": "white shirt",
-        "outer": "dark blue vest with a white mesh pattern"
+        "outer": "dark blue vest"
     },
     {
         "scan": "130711510981479",
         "dataset": "twindom_10k",
         "inner": "green shirt with a square print on it",
-        "outer": "deep blue zipper jacket"
+        "outer": "deep blue zipper-jacket"
     },
     {
         "scan": "129911494587773",
@@ -477,7 +478,7 @@
         "scan": "01772_Outer",
         "dataset": "2k2k",
         "inner": "white shirt with colorful letters on it",
-        "outer": "blue bomber jacket"
+        "outer": "blue bomber-jacket"
     },
     {
         "scan": "00374_Outer",
@@ -489,7 +490,7 @@
         "scan": "01685_Outer",
         "dataset": "2k2k",
         "inner": "white shirt",
-        "outer": "gray puffer jacket"
+        "outer": "gray puffer-jacket"
     },
     {
         "scan": "CWom0326-HD2-O01P01-S",
@@ -501,7 +502,7 @@
         "scan": "127711494435636",
         "dataset": "twindom_10k",
         "inner": "white shirt",
-        "outer": "blue puffer vest"
+        "outer": "blue puffer-vest"
     },
     {
         "scan": "rp_pamela_posed_009_30k",
@@ -525,13 +526,13 @@
         "scan": "00304_Outer",
         "dataset": "2k2k",
         "inner": "green shirt with inverted triangle print on it",
-        "outer": "black jacket with colorful stripes along the arms"
+        "outer": "colorful striped along sleeves black-jacket"
     },
     {
         "scan": "134411533307275",
         "dataset": "twindom_10k",
         "inner": "blue shirt with spiderman comic print on it",
-        "outer": "dak blue jacket"
+        "outer": "dark blue jacket"
     },
     {
         "scan": "126111535847796",
@@ -561,7 +562,7 @@
         "scan": "125611520103063",
         "dataset": "twindom_10k",
         "inner": "light gray shirt with CSI print on it",
-        "outer": "dark blue, green and yello jacket shirt"
+        "outer": "dark blue, green and yellow shirt"
     },
     {
         "scan": "01817_Outer",

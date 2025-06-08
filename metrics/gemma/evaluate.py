@@ -24,7 +24,17 @@ for idx, garment_dict in tqdm(enumerate(garments)):
     scan_id = str(idx)
     inner_garm = garment_dict['inner']
     outer_garm = garment_dict['outer']
-    prompt = f'Is the person in the image wearing a jacket, cardigan, sweater, coat or a {outer_garm}? Answer yes if that is the case and no if the person is only wearing a shirt, t-shirt, blouse or a {inner_garm}.'
+    outer_garm_type = outer_garm.split[' '][-1].replace('-', ' ')
+    outer_garm_types = ['jacket', 'cardigan', 'sweater', 'coat']
+    outer_garm_types = [outer_garm_type] + [ogt for ogt in outer_garm_types if ogt not in outer_garm_type]
+
+    if len(outer_garm_types) > 1:
+        outer_garm_types_str = ', '.join(outer_garm_types[:-1]) + f', or {outer_garm_types[-1]}'
+    else:
+        outer_garm_types_str = outer_garm_types[0]
+
+    
+    prompt = f'Answer yes if the person in the image is wearing a {outer_garm_types_str}. Answer no if the person is only wearing a {inner_garm}, shirt, t-shirt, or blouse.'
     messages = [
         {
             "role": "system",
@@ -51,10 +61,11 @@ for idx, garment_dict in tqdm(enumerate(garments)):
     decoded = processor.decode(generation, skip_special_tokens=True)
     
     result_dict = {
+        'prompt' : prompt,
         'full_answer' : decoded,
-        'successful': 'no' in decoded[0].lower()
+        'successful': 'no' in decoded.lower()
     }
-    count += int('no' in decoded[0].lower())
+    count += int('no' in decoded.lower())
     results_list.append(result_dict)
 
 print(count)
