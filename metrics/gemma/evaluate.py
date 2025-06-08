@@ -24,7 +24,7 @@ for idx, garment_dict in tqdm(enumerate(garments)):
     scan_id = str(idx)
     inner_garm = garment_dict['inner']
     outer_garm = garment_dict['outer']
-    outer_garm_type = outer_garm.split[' '][-1].replace('-', ' ')
+    outer_garm_type = outer_garm.split(' ')[-1].replace('-', ' ')
     outer_garm_types = ['jacket', 'cardigan', 'sweater', 'coat']
     outer_garm_types = [outer_garm_type] + [ogt for ogt in outer_garm_types if ogt not in outer_garm_type]
 
