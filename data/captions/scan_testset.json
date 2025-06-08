@@ -584,16 +584,19 @@
     {
         "scan": "02047_Inner",
         "dataset": "2k2k",
-        "inner": "dark gray shirt with icons on it"
+        "inner": "dark gray shirt with icons on it",
+        "outer": "light gray hoodie"
     },
     {
         "scan": "03424_Inner",
         "dataset": "2k2k",
-        "inner": "navy blue shirt"
+        "inner": "navy blue shirt",
+        "outer": "light gray hoodie"
     },
     {
         "scan": "04623_Inner",
         "dataset": "2k2k",
-        "inner": "white shirt with DAD printed on it"
+        "inner": "white shirt with DAD printed on it",
+        "outer": "black cardigan"
     }
 ]
